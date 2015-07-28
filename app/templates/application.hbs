@@ -1,3 +1,15 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<h1>Top Secret Vault</h1>
+
+{{input value=secret class='secret-value'}}
+
+<button {{action 'checkPassword'}} class='check-password'>
+  Check password
+</button>
+
+<hr>
+
+{{#if unlocked}}
+  <img class='suprise' src="http://i.imgur.com/YuDUg7q.jpg">
+{{/if}}
 
 {{outlet}}
