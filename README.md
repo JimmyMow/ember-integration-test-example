@@ -1,4 +1,4 @@
-# Ember integration test example
+# Emberjs integration test example
 
 A simple example of integration testing in Ember-CLI. If the user enters the correct password an image shows up.
 
